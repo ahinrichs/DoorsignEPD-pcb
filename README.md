@@ -32,6 +32,21 @@ Components needed in addition to PCB:
 * Crimp tool for JST-PH connectors
 * 3.3V capable USB-TTL adapter for programming
 
+### Programming
+
+This a minimalistic board to save power. No USB included. So you need an
+USB-TTL adapter that is capable of doing 3.3V. This one works for me under
+Linux.
+
+To upload an arduino sketch/flash firmware:
+
+1. Connect the USB-Adapter GND/RX/TX to the board. Most adapters need RX board/TX adapter and TX board/RX adapter. If that doesn't work try RX/RX+TX/TX. To check press the Reset button. The serial monitor must show the ESP33 boot log.
+2. Press and hold the Boot(loader) button, shortly press the Reset button, then release the Boot button. Log should show the ESP32 entering bootloader mode.
+3. Now stop any serial monitor (Arduino IDE does this automatically)
+4. Upload the sketch and wait until completion
+5. Again press the Reset button
+6. Restart serial monitor (Arduino IDE does this automatically)
+
 ### Assembled board
 
 ![Assembled](https://ahinrichs.github.com/DoorsignEPD-pcb/img/front.jpg)
