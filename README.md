@@ -16,7 +16,7 @@ LED.
 
 Display connector pin assignment is identical to the Waveshare hat connector.
 
-Rev A1 PCB can be ordered e.g. via aisler.net: https://aisler.net/p/HSIWEKKI
+Rev A2 PCB can be ordered e.g. via aisler.net: https://aisler.net/p/HSIWEKKI
 
 Components needed in addition to PCB:
 
@@ -35,3 +35,14 @@ Components needed in addition to PCB:
 ### Assembled board
 
 ![Assembled](https://ahinrichs.github.com/DoorsignEPD-pcb/img/front.jpg)
+
+### Changelog
+
+#### Rev A2 (minor)
+
+* Trace width power supply + GND
+* Via min size 0.65mm (=drill + 0.25mm)
+
+#### Rev A1
+
+* Initial revision
