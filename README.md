@@ -14,6 +14,8 @@ Pin6/IO34/ADC6 for monitoring. Hence input voltage must be below 3.6V.  I use
 Pin8/IO32/ADC4/TOUCH9. Haven't used it yet. Maybe for a touch wakeup or status
 LED.
 
+Display connector pin assignment is identical to the Waveshare hat connector.
+
 Rev A1 PCB can be ordered e.g. via aisler.net: https://aisler.net/p/HSIWEKKI
 
 Components needed in addition to PCB:
