@@ -35,7 +35,7 @@ Components needed in addition to PCB:
 ### Programming
 
 This a minimalistic board to save power. No USB included. So you need an
-USB-TTL adapter that is capable of doing 3.3V. This one works for me under
+USB-TTL adapter that is capable of doing 3.3V. [This one](https://www.amazon.de/WINGONEER-CP2104-seriell-Konverter-TTL-kompatibel/dp/B01CYBHM26) works for me under
 Linux.
 
 To upload an arduino sketch/flash firmware:
